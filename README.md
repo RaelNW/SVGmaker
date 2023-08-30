@@ -50,6 +50,6 @@ As a freelance web developer, I want to generate a simple logo for my projects s
 
 Logo generator created by [Rael Wanjala].
 
-## License
+## link to Demo
 
-None
+https://drive.google.com/file/d/10yMyKTLA6u30cn0JKHO_cPtjLSNY1w-7/view?usp=drive_link

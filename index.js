@@ -87,7 +87,12 @@ function promptUser() {
       const svgContent = svgGenerator.render();
 
       // Write the SVG content to a file
-      fs.writeFileSync("logo.svg", svgContent, "utf-8");
+      try {
+        fs.writeFileSync("logo.svg", svgContent, "utf-8");
+        console.log("Generated logo.svg");
+      } catch (err) {
+        console.error("Error writing to logo.svg:", err);
+      }
     });
 }
 
